@@ -14,3 +14,4 @@ INSERT INTO students (name, branch, marks) VALUES
 ('Riya', 'Computer', 92);
 
 SELECT * FROM students;
+

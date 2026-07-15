@@ -45,3 +45,58 @@ INSERT INTO Doctors VALUES
 
 SELECT * FROM Patients;
 SELECT * FROM Doctors;
+
+use patients;
+SHOW databases;
+SHOW table Patients;
+
+
+SHOW DATABASES;
+USE sqlmasterdb;
+SHOW TABLES;
+SELECT * FROM Patients;
+SELECT * FROM Doctors;
+
+-- Q1
+SELECT * FROM Patients;
+
+-- Q2
+SELECT PatientsName, City
+FROM Patients;
+
+-- Q3
+SELECT *
+FROM Doctors
+WHERE Experience > 10;
+
+-- Q4
+SELECT *
+FROM Patients
+WHERE City = 'Pune';
+
+-- Q5
+SELECT *
+FROM Patients
+WHERE Gender = 'Female';
+
+-- Q6
+SELECT *
+FROM Doctors
+ORDER BY Experience ASC;
+
+-- Q7
+SELECT *
+FROM Patients
+LIMIT 5;
+
+-- Q8
+SELECT COUNT(*) AS TotalPatients
+FROM Patients;
+
+-- Q9
+SELECT MAX(Age) AS MaxAge
+FROM Patients;
+
+-- Q10
+SELECT DISTINCT City
+FROM Patients;
