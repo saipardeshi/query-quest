@@ -55,3 +55,7 @@ Select  Min(Salary) from Teachers1;
 
 Select avg(salary) from Teachers1;
 
+Select * from Teachers1 order by Teacher1Name asc;
+
+show databases;
+use largedataset;
